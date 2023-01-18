@@ -1,0 +1,29 @@
+.sobre-points{ 
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sobre{
+    padding: 60px 200px;
+    background-color: #f5f5f5;
+
+    display: flex;
+}
+
+@media (max-width: 1500px){
+    .sobre {
+        padding: 40px 70px;
+    }
+}
+
+@media (max-width: 1000px){
+    .sobre {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .sobre-points{
+        width: 100%;
+    }
+}

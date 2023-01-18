@@ -1,0 +1,16 @@
+.perguntas{
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.perguntas h2{
+    font-size: 60px;
+}
+
+@media (max-width: 1500px){
+    .perguntas {
+        padding: 40px 70px;
+    }
+}

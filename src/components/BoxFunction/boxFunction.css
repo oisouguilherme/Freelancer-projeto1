@@ -1,0 +1,14 @@
+.box-container{
+    padding: 80px 300px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    background-color: #f4f1ed;
+}
+
+@media (max-width: 1300px){
+    .box-container {
+        padding: 80px 70px;
+    }
+}

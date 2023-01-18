@@ -1,0 +1,16 @@
+.pergunta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pergunta img{
+    width: 25px;
+}
+
+#hide {
+    display:none;
+}
