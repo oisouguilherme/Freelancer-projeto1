@@ -11,6 +11,12 @@
     width: 25px;
 }
 
-#hide {
-    display:none;
+
+section details summary{
+    list-style: none;
+} 
+
+section details p {
+    font-size: 20px;
+    font-weight: normal;
 }
