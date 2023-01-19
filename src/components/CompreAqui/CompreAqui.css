@@ -19,7 +19,7 @@
     padding: 20px 70px;
     border-radius: 30px;
     border: none;
-    background-color: #0071e3;
+    background-color: #ed2d50;
     color: white;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -27,7 +27,7 @@
 }
 
 .button-compra button:hover {
-    background-color: #0568ca;
+    background-color: #d42b4a;
 }
 
 @media (max-width: 1300px){

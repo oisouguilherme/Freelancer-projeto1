@@ -2,13 +2,14 @@
     padding: 80px 0px 150px 150px;
     width: 100%;
     display: flex;
-    gap: 200px;
+    gap: 50px;
+    align-items: center;
 }
 
 .sobre-curso{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .sobre-curso h2 {
@@ -22,7 +23,7 @@
 
 
 .img-curso img{
-    width: 60%;
+    width: 80%;
     margin-top: 20px;
     border-radius: 20px;
 }

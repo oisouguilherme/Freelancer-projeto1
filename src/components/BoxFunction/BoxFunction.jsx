@@ -6,12 +6,12 @@ function BoxFunction(){
     return(
         <div className="box-container">
             <CompreAqui />
-            <BoxUnic text={"Garantia de 15 dias"} />
-            <BoxUnic text={"Acesso imediato"} />
-            <BoxUnic text={"1 ano de acesso"} />
+            <BoxUnic text={"Garantia de 7 dias"} />
             <BoxUnic text={"Compra segura"} />
-            <BoxUnic text={"+ de 10 mil alunos"} />
-            <BoxUnic text={"Suporte ao vivo"} />
+            <BoxUnic text={"1 ano de acesso"} />
+            <BoxUnic text={"Suporte"} />
+            <BoxUnic text={"Acesso imediato"} />
+            <BoxUnic text={"Grupo no WhatsApp"} />
         </div>    
     )
 }

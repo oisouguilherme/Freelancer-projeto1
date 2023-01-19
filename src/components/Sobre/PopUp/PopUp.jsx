@@ -7,8 +7,8 @@ function PopUp(){
             <div className='img'>
                 <img src={ArrowLeft} alt="" />
             </div>
-            <h2>Isso não é um curso comum.</h2>
-            <p>É uma estratégia completa, mas não complexa</p>
+            <h2>Não é um curso de vendas para redes sociais</h2>
+            <p>São técnicas e estratégias que funcionam em diversos canais</p>
             <img className='star' src={Star} alt="" />
         </div>
     )
