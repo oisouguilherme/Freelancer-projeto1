@@ -1,5 +1,5 @@
 .perguntas{
-    padding: 40px 200px;
+    padding: 40px 150px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -12,5 +12,10 @@
 @media (max-width: 1500px){
     .perguntas {
         padding: 40px 70px;
+    }
+}
+@media (max-width: 700px){
+    .perguntas {
+        padding: 60px 20px ;
     }
 }

@@ -3,13 +3,15 @@
     width: 70%;
     flex-direction: column;
     gap: 40px;
+    align-items: center;
 }
 
 .sobre{
-    padding: 60px 200px;
+    padding: 60px 150px;
     background-color: #f5f5f5;
 
     display: flex;
+    align-items: center;
 }
 
 @media (max-width: 1500px){
@@ -22,6 +24,7 @@
     .sobre {
         flex-direction: column;
         gap: 60px;
+        padding: 60px 20px ;
     }
     .sobre-points{
         width: 100%;

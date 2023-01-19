@@ -1,5 +1,5 @@
 import './SobreCurso.css'
-import ImagemPessoal from '../../assets/imagem-test.jpg'
+import ImagemPessoal from '../../assets/ulisses.jpg'
 
 function SobreCurso(){
     return(

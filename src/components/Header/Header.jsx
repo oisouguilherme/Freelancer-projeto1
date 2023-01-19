@@ -18,9 +18,7 @@ function Header () {
                     <img src={Arrow} alt="" />
                 </div>
                 <div className='header-2'>  
-                    <video width="580" height="340" controls >
-                        <source src="https://www.youtube.com/watch?v=ap0_hrlt4lc" type="video/mp4"/>
-                    </video>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/oSixqq-Fi-I" title="CELLBIT SOBRE A SÉRIE THE LAST OF US VIRAR MODINHA!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ratione beatae tempora 
                         nam eveniet culpa .sed neque autem. Debitis neque libero aperiam non vel ut beatae quae 
                         illo laborum accusamussed neque autem. Debitis neque libero aperiam non vel ut beatae quae 

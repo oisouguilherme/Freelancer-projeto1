@@ -1,6 +1,6 @@
 .button-check{
-    width: 80px;
-    height: 80px;
+    min-width: 6vw;
+    height: 10vh;
     border-radius: 50%;
 
     display: flex;
@@ -24,5 +24,18 @@
 .button-component {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+}
+
+@media (max-width: 750px){
+    .button-check {
+        min-width: 10%;
+        height: 8vh;
+    }
+}
+@media (max-width: 500px){
+    .button-check {
+        min-width: 20%;
+        height: 8vh;
+    }
 }

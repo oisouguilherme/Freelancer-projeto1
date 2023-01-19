@@ -1,5 +1,5 @@
 .container-destino{
-    padding: 40px 200px;
+    padding: 40px 150px;;
     display: flex;
     gap: 300px;
 }
@@ -40,8 +40,14 @@
 @media (max-width: 1000px){
     .container-destino {
         display: flex;
+        padding: 60px 20px ;
+        
+        gap:100px;
         flex-direction: column;
         width: 100%;
+    }
+    .text-container{
+        align-items: center;
     }
     .balls{
     width: 100%;
