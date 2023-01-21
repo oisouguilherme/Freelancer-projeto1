@@ -18,11 +18,10 @@ function ParaQuem(){
                 </div>
             </div>
             <div className='destino'>
-                <Destino />
-                <Destino />
-                <Destino />
-                <Destino />
-                <Destino />
+                <Destino text={"Vendedores que desejam melhorar as suas técnicas"} />
+                <Destino text={"Dono de pequena e média empresa que deseja conhecer técnicas de vendas"} />
+                <Destino text={"Pessoas que recentemente ocuparam um cargo na área comercial"} />
+                <Destino text={"Futuros empreendedores"} />     
             </div>
         </div>
     )

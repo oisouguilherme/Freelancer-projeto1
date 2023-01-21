@@ -9,9 +9,8 @@ function Header () {
             <div className="container">
                 <div className='header-1'>
                     <h1>
-                        Chegou o momento de você alcançar um novo nível na sua vida, 
-                        para isso, precisa aprender a vender você ou seus produtos, essa é a 
-                        sua melhor oportunidade.
+                        Chegou o momento de você alcançar um novo nível em sua carreira, para isso, 
+                        precisa aprender a vender, essa é a sua melhor oportunidade.
                     </h1>
                     <p>
                         Nesse curso você vai <span>aprender diversas técnicas de vendas valiosas </span>  

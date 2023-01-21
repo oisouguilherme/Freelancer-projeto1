@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+<svg xmlns="http://www.w3.org/2000/svg" fill="#ed2d50" width="40.828" height="32.204" viewBox="0 0 40.828 32.204">
+  <g id="Grupo_3" data-name="Grupo 3" transform="translate(-762.5 -680.398)">
+    <path id="Linha_1" data-name="Linha 1" d="M38,2H-2V-2H38Z" transform="translate(764.5 696.5)"/>
+    <path id="Caminho_1" data-name="Caminho 1" d="M882.773,462.413l-16.1-16.1,2.828-2.828,16.1,16.1Z" transform="translate(-82.273 236.916)"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M869.5,462.413l-2.828-2.828,16.1-16.1,2.828,2.828Z" transform="translate(-82.273 250.189)"/>
+  </g>
 </svg>

@@ -1,9 +1,9 @@
 import './Destino.css'
 
-function Destino(){
+function Destino({text}){
     return(
         <div className='destino'>
-            <p>Produtores digitais que já atuam com perpétuo</p>
+            <p>{text}</p>
             <div className="linha-horizontal"></div>
         </div>
     )

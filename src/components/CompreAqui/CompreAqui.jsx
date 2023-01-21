@@ -5,9 +5,8 @@ function CompreAqui(){
     return(
         <div className='button-compra'>
             <p>
-                <span>Clique no botão abaixo</span> e dê o primeiro passo para a criação de um
-                negócio que vende em escala, com alta margem de lucro e que tende a
-                crescer exponencialmente ao longo tempo.
+                <span>Clique no botão abaixo</span> e dê o primeiro passo 
+                para ter sucesso em vendas.
             </p>
             <button>Fazer inscrição</button>
             <img src={Payment} alt="" />

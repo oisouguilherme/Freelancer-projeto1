@@ -2,13 +2,13 @@ import PopUp from './PopUp/PopUp'
 import './sobre.css'
 import SobrePoints from './SobrePoints/SobrePoints'
 
-function Sobre(props){
+function Sobre(){
     return(
         <div className='sobre'>
             <div className='sobre-points'>
                 <SobrePoints 
-                textNeg={"Você não vai aprender a em rede social"}
-                text={`, vai aprender técnicas que funcionam em qualquer canal`} />
+                textNeg={"Você não vai aprender a vender em rede social"}
+                text={`, vai aprender técnicas que funcionam em qualquer canal, presencial ou on-line.`} />
                 <SobrePoints
                 textNeg={"Não é só negociação"}
                 text={", vai aprender técnicas que te ajudarão a chegar no “sim” do seu lead"} />

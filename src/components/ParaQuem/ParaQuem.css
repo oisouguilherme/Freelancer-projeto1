@@ -6,6 +6,7 @@
 
 .text-container{
     font-size: 30px;
+    color:#ed2d50;
     display: flex;
     align-items: flex-start;
 }
