@@ -1,0 +1,15 @@
+.social-footer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+.social-media{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.social-media img{
+    width: 30px;
+}

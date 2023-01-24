@@ -1,6 +1,6 @@
 .button-compra{
     min-width: 100%;
-    padding: 40px 260px;
+    padding: 110px 260px;
     font-size: 18px;
     margin: 0 auto;
     display: flex;
@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: -25px;
+    background-color: #f4f1ed;
 }
 
 .button-compra span {

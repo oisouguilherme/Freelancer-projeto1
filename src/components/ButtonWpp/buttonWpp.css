@@ -1,0 +1,29 @@
+.buttonWpp a img{
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.teste{
+    background-color: #32CD32;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1000px){
+    .teste {
+        width: 60px;
+        height: 60px;
+    }
+    .buttonWpp a img{
+        width: 35px;
+    }
+}
