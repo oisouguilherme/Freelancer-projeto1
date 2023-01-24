@@ -7,13 +7,12 @@
 
 @media (max-width: 1500px){
     .footer {
-        padding: 40px 70px;
+        padding: 60px 70px;
     }
 }
 
 @media (max-width: 768px) {
     .footer {
-      padding: 20px;
       justify-content: center;
     }
 }
