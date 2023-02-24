@@ -21,7 +21,7 @@ function Header () {
                     <img src={Arrow} alt="" />
                 </div>
                 <div className='header-2'>  
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/oSixqq-Fi-I" title="CELLBIT SOBRE A SÉRIE THE LAST OF US VIRAR MODINHA!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/HmRN96Lqfsk" title="Ainda tem dúvidas se o VQC é para você? Assista!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>
                         Se você chegou até essa página é porque tem interesse em aprender a vender. 
                         Deu um passo importante, mas não é o suficiente precisa fazer sua inscrição, 
