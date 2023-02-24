@@ -9,7 +9,7 @@ function SocialFooter(){
             <div className='social-footer'>
                 <img src={LogoFooter} alt="" />
                 <div className='social-media'>
-                    <a href="https://www.instagram.com/oulissesalmeida/"><img src={Instagran} alt="link para instagram do Ulisses" /> oulissesalmeida</a>
+                    <a href="https://www.instagram.com/oulissesalmeida/" target={'_blank'}><img src={Instagran} alt="link para instagram do Ulisses" /> oulissesalmeida</a>
                     <a href=""><img src={Whatsapp} alt="Meu Whatsapp para contato" />(38) 9999-9999</a>
                 </div>
             </div>
