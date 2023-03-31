@@ -18,9 +18,9 @@ function ParaQuem(){
                 </div>
             </div>
             <div className='destino'>
-                <Destino text={"Vendedores que desejam melhorar as suas técnicas"} />
-                <Destino text={"Dono de pequena e média empresa que deseja conhecer técnicas de vendas"} />
-                <Destino text={"Pessoas que recentemente ocuparam um cargo na área comercial"} />
+                <Destino text={"Vendedores que desejam melhorar as suas técnicas incluindo no WhatsApp"} />
+                <Destino text={"Dono de pequena e média empresa que deseja conhecer técnicas de vendas."} />
+                <Destino text={"Pessoas que recentemente ocuparam um cargo na área comercial e querem melhorar as vendas pelo WhatsApp"} />
                 <Destino text={"Futuros empreendedores"} />     
             </div>
         </div>

@@ -2,19 +2,19 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    padding-top: 30px;
 }
 .social-footer img {
-    width: 300px;
+    width: 250px;
+    height: fit-content;
 }
 .social-media{
     display: flex;
     flex-direction: column;
     gap: 15px;
     justify-content: center;
-    
 }
 .social-media a {
     display: flex;
@@ -22,9 +22,10 @@
     text-decoration: none;
     align-items: center;
     color: black;
+    font-weight: bolder;
 }
 .social-media img{
-    width: 30px;
+    width: 35px;
 }
 
 .p{
@@ -37,12 +38,22 @@
 
 @media (max-width: 1000px){
     .social-footer > img {
-        width: 80%;
+        width: 50%;
     }
     .social-footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .social-footer > img {
+        width: 100%;
+    }
+    p {
+        padding: 15px 0;
+        text-align: center;
     }
 }
