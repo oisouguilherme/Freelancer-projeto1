@@ -10,11 +10,13 @@ import Perguntas from './components/Perguntas/Perguntas'
 import CompreAqui from './components/CompreAqui/CompreAqui'
 import Footer from './components/Footer/Footer'
 import ButtonWpp from './components/ButtonWpp/ButtonWpp'
+import { BotaoFixo } from './components/BotaoFixo/BotaoFixo'
 
 function App() {
 
   return (
     <div className="App">
+      <BotaoFixo />
       <Header />
       <BoxFunction />
       <Sobre />

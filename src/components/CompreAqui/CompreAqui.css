@@ -14,22 +14,6 @@
     font-weight: bold;
 }
 
-.button-compra button {
-    font-size: 18px;
-    padding: 20px 70px;
-    border-radius: 30px;
-    border: none;
-    background-color: #00b142;
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.button-compra button:hover {
-    background-color: #0fa345;
-}
-
 @media (max-width: 1300px){
     .button-compra {
         padding: 40px 50px;

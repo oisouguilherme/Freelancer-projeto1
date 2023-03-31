@@ -1,5 +1,6 @@
 import './CompreAqui.css'
 import Payment from '../../assets/payments.svg'
+import { Button } from './Button/Button'
 
 function CompreAqui(){
     return(
@@ -8,7 +9,7 @@ function CompreAqui(){
                 <span>Clique no botão abaixo</span> e dê o primeiro passo 
                 para ter sucesso em vendas.
             </p>
-            <button>Fazer inscrição</button>
+            <Button text={"Fazer inscrição"}/>
             <img src={Payment} alt="" />
         </div>
     )
