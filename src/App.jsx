@@ -13,7 +13,6 @@ import ButtonWpp from './components/ButtonWpp/ButtonWpp'
 import { BotaoFixo } from './components/BotaoFixo/BotaoFixo'
 
 function App() {
-
   return (
     <div className="App">
       <BotaoFixo />

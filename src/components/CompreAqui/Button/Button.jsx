@@ -1,9 +1,10 @@
 import './Button.css'
 
-export function Button({text}){
+export function Button({text, func}){
   return(
     <a href="#" target='_blank'>
-      <button className='button-style'>{text}</button>
+      <button onClick={func}
+      className='button-style'>{text}</button>
     </a>
   )
 }

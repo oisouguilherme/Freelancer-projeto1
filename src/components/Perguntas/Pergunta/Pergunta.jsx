@@ -1,22 +1,19 @@
-import Plus from '../../../assets/plus.svg'
-import './Pergunta.css'
+import { useState } from "react";
+import Plus from "../../../assets/plus.svg";
+import "./Pergunta.css";
 
-function Pergunta({pergunta, resposta}){
-    return(
-        <div>
-            <div className='pergunta'>
-                    <img src={Plus} alt="" />
-                <section>
-                    <details>
-                        <summary>{pergunta}</summary>
-                        <p>
-                            {resposta}
-                        </p>
-                    </details>
-                </section>
-            </div>           
-        </div>
-    )
+function Pergunta({ pergunta, resposta }) {
+  const [showDiv, setShowDiv] = useState(false);
+
+  function toggleDiv() {
+    setShowDiv(!showDiv);
+  }
+  return (
+    <div className="buttons">
+        <button onClick={toggleDiv}>{`+ ${pergunta}`}</button>
+        {showDiv && <div>{resposta}</div>}
+    </div>
+  );
 }
 
-export default Pergunta
+export default Pergunta;

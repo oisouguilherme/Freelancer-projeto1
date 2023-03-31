@@ -9,8 +9,10 @@
   margin-bottom: 15px;
   cursor: pointer;
   box-shadow: 5px 5px 10px gray;
+  transition: .3s;
 }
 
 .button-style:hover {
   background-color: #0fa345;
+  transform: scale(1.1);
 }
