@@ -6,11 +6,13 @@
     font-weight: bold;
     text-align: start;
     cursor: pointer;
+    color: white;
 }
 
 .buttons div{
     margin-left: 20px;
     font-size: x-large;
+    color: #f5f5f5;
 }
 
 @media (max-width: 400px){

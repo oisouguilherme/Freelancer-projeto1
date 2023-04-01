@@ -1,21 +1,19 @@
 .button-compra{
     min-width: 100%;
-    padding: 110px 260px;
     font-size: 18px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: -25px;
+    color: white;
+    background-color: #141414;
 }
 
 .button-compra span {
     font-weight: bold;
 }
 
-@media (max-width: 1300px){
-    .button-compra {
-        padding: 40px 50px;
-    }
-}

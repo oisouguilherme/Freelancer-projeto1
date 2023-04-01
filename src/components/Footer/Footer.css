@@ -1,7 +1,8 @@
 .footer{
     padding: 5px 150px;
-    background-color: #f4f1ed;
+    background-color: black;;
     display: flex;
+    color: white;
 }
 
 
