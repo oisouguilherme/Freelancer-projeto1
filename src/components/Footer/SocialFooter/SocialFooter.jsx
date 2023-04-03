@@ -1,5 +1,5 @@
 import './SocialFooter.css'
-import LogoFooter from '../../../assets/logo-footer.png'
+import LogoFooter from '../../../assets/logo.png'
 import Instagran from '../../../assets/instagram.svg'
 import YouTube from '../../../assets/youtube.svg'
 

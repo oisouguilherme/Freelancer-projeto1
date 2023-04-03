@@ -1,15 +1,15 @@
 .box-container{
-    
-    padding: 40px 200px;
+    padding: 0px 200px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     gap: 80px;
     flex-wrap: wrap;
-    background-color: #f4f1ed;
+    background-color: #141414;
 }
 
 @media (max-width: 1300px){
     .box-container {
-        padding: 80px 70px;
+        padding: 0px 70px;
     }
 }

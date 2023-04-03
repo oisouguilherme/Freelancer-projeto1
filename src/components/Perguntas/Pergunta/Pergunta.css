@@ -1,22 +1,26 @@
-.pergunta{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px;
+
+.buttons button{
+    background: none;
+    border: none;
+    font-size: xx-large;
     font-weight: bold;
+    text-align: start;
     cursor: pointer;
+    color: white;
 }
 
-.pergunta img{
-    width: 25px;
+.buttons div{
+    margin-left: 20px;
+    font-size: x-large;
+    color: #f5f5f5;
 }
 
-
-section details summary{
-    list-style: none;
-} 
-
-section details p {
-    font-size: 20px;
-    font-weight: normal;
+@media (max-width: 400px){
+    .buttons button{
+        font-size: x-large;
+        
+    }
+    .buttons div{
+        font-size: large;
+    }
 }

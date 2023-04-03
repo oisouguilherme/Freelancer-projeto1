@@ -1,37 +1,19 @@
 .button-compra{
     min-width: 100%;
-    padding: 110px 260px;
     font-size: 18px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: -25px;
+    color: white;
+    background-color: #141414;
 }
 
 .button-compra span {
     font-weight: bold;
 }
 
-.button-compra button {
-    font-size: 18px;
-    padding: 20px 70px;
-    border-radius: 30px;
-    border: none;
-    background-color: #00b142;
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.button-compra button:hover {
-    background-color: #0fa345;
-}
-
-@media (max-width: 1300px){
-    .button-compra {
-        padding: 40px 50px;
-    }
-}

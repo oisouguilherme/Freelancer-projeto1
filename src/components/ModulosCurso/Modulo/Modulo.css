@@ -1,0 +1,33 @@
+.modulo-container{
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(84, 196, 74);
+}
+.modulo-container p:nth-child(1){
+  color: #00b142;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.modulo-container p:nth-child(2){
+  font-size: xx-large;
+}
+
+.modulo-container ul{
+  list-style: none;
+  padding-top: 20px;
+  font-size: x-large;
+  line-height: 35px;
+}
+
+@media (max-width: 448px){
+  .modulo-container{
+    padding: 20px;
+    text-align: center;
+  }
+}

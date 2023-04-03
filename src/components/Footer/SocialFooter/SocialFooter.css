@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     margin-bottom: 10px;
     padding-top: 30px;
+    
 }
 .social-footer img {
     width: 250px;
@@ -21,8 +22,8 @@
     gap: 15px;
     text-decoration: none;
     align-items: center;
-    color: black;
-    font-weight: bolder;
+    color: white;
+    font-weight: medium;
 }
 .social-media img{
     width: 35px;
@@ -33,7 +34,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 @media (max-width: 1000px){

@@ -1,8 +1,9 @@
 .perguntas{
-    padding: 90px 150px;
+    padding: 60px 150px 90px 150px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    background-color: #141414;
 }
 
 .perguntas h2{
