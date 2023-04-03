@@ -11,6 +11,7 @@ import CompreAqui from './components/CompreAqui/CompreAqui'
 import Footer from './components/Footer/Footer'
 import ButtonWpp from './components/ButtonWpp/ButtonWpp'
 import { BotaoFixo } from './components/BotaoFixo/BotaoFixo'
+import { ModulosCurso } from './components/ModulosCurso'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Sobre />
       <SobreCurso/>
       <ParaQuem/>
+      <ModulosCurso />
       <CompreAqui />
       <Perguntas/>
       <Footer />
