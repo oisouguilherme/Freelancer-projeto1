@@ -1,6 +1,6 @@
 import { Modulo } from './Modulo'
 import './ModulosCurso.css'
-import ImageUlisses from '../../assets/image-ulisses.jpg'
+import ImageUlisses from '../../assets/zapi.png'
 import { ItemLista } from './Modulo/Itemlista';
 
 export function ModulosCurso(){

@@ -9,7 +9,7 @@ export function BotaoFixo(){
 
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > 1000 && window.scrollY < 4000 ) {
+      if (window.scrollY > 1000 && window.scrollY < 6000 ) {
         setShowDiv(true);
       } else {
         setShowDiv(false);
