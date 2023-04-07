@@ -11,5 +11,6 @@
 @media (max-width: 1300px){
     .box-container {
         padding: 0px 70px;
+        padding-bottom: 70px;
     }
 }
