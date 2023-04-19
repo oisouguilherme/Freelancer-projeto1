@@ -61,7 +61,7 @@ export function ModulosCurso(){
             }
           />
           <Modulo modulo={"Módulo 4"}
-            title={"Aula de boas vindas"}
+            title={"Conheça o Whatsapp Business"}
             children={
               <ItemLista
                 aula={"Aula 1 –"}
