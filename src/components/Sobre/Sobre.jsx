@@ -19,8 +19,8 @@ function Sobre(){
                 textNeg={"Não seja só uma pessoa que envia proposta"}
                 text={", você vai aprender diversas formas de abordar o seu possível cliente"} />
                 <SobrePoints
-                textNeg={"Não é passo a passo de vendas no WhatsApp"}
-                text={", você irá aprender a criar o seu processo para com base na realidade ou do seu negócio"} />            
+                textNeg={"Não é passo a passo de vendas no WhatsApp, "}
+                text={"você irá aprender a criar o seu processo com base na realidade ou do seu negócio"} />            
             </div>
             <div>
                 <PopUp />

@@ -6,8 +6,7 @@ function CompreAqui(){
     return(
         <div className='button-compra'>
             <p>
-                <span>Clique no botão abaixo</span> e dê o primeiro passo 
-                para ter sucesso em vendas.
+                <span>Clique no botão abaixo</span> e dê o primeiro passo para ter sucesso em vendas pelo WhatsApp
             </p>
             <Button text={"Fazer inscrição"}/>
             <img src={Payment} alt="" />

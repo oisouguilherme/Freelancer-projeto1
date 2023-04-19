@@ -8,7 +8,7 @@ function PopUp(){
                 <img src={ArrowLeft} alt="" />
             </div>
             <h2>Não é um curso de vendas para redes sociais</h2>
-            <p>São técnicas e estratégias que funcionam em diversos canais</p>
+            <p>São técnicas e estratégias que funcionam em diversos canais e no WhatsApp</p>
             <img className='star' src={Star} alt="" />
         </div>
     )
