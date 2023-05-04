@@ -1,0 +1,68 @@
+.boxCompra-container{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 0;
+
+}
+
+.box-compra{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  border: 2px solid #00b142;
+  padding: 50px 20px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 22px;
+}
+
+.title-compra{
+  font-size: xx-large;
+}
+
+.title-compra span{
+  color: #00b142 ;
+}
+
+.risk {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.preco{
+  font-size: 32px;
+  color: #00b142;
+  padding-bottom: 25px;
+}
+.preco span{
+  font-size: 24px;
+  color: gray;
+}
+
+.botao-compra{
+  background-color: #00b142 ;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.botao-compra:hover{
+  background-color: #19e062 ;
+}
+
+.comprar img{
+  padding-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .box-compra{
+    width: 100%;
+  }
+}

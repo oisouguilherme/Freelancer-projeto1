@@ -1,13 +1,23 @@
 .container-destino{
-    padding: 80px 150px;;
     display: flex;
-    gap: 300px;
+    gap: 250px;
+    justify-content: space-around;
+}
+
+.container-geral{
+    padding: 80px 150px;
     background-color: black;
     color: #f5f5f5;
 }
 
+.container-geral > h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
 .text-container{
-    font-size: 30px;
+    font-size: 26px;
     color:#00b142;
     display: flex;
     align-items: flex-start;
@@ -15,7 +25,6 @@
 
 .text-container img{
     width: 100px;
-
 }
 
 .ball{
@@ -33,20 +42,14 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 1500px){
-    .container-destino {
-        padding: 40px 70px;
-        gap: 200px;
-    }
-}
-
 @media (max-width: 1000px){
     .container-destino {
         display: flex;
-        
         gap:100px;
         flex-direction: column;
+        align-items: center;
         width: 100%;
+        text-align: center;
     }
     .text-container{
         align-items: center;
@@ -58,7 +61,8 @@
 }
 
 @media (max-width: 700px){
-    .container-destino{
-        padding: 60px 20px;
+    .container-geral{
+        text-align: center;
+        padding: 60px 50px;
     }
 }

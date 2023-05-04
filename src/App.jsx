@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 import ButtonWpp from './components/ButtonWpp/ButtonWpp'
 import { BotaoFixo } from './components/BotaoFixo/BotaoFixo'
 import { ModulosCurso } from './components/ModulosCurso'
+import { BoxCompra } from './components/BoxCompra'
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <SobreCurso/>
       <ParaQuem/>
       <ModulosCurso />
-      <CompreAqui />
+      <BoxCompra/>
       <Perguntas/>
       <Footer />
       <ButtonWpp/>

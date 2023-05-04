@@ -1,7 +1,6 @@
 .modulo-geral-container{
-  background-color: black;
-  padding: 100px;
-  padding-top:0;
+  background-color: #141414;
+  padding: 50px 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -18,9 +17,16 @@
   font-size: xx-large;
 }
 
+.modulo-title .p{
+  color: white;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
 .modulo-title h2{
   font-size: xxx-large;
 }
+
 
 .modulo-curso-container{
   display: flex;
@@ -38,7 +44,7 @@
 
 
 .modulo-curso-container img{
-  width: 40%;
+  width: 35%;
   padding: 40px;
   height: fit-content;
   border-radius: 8px;
@@ -50,7 +56,7 @@
     align-items: center;
   }
   .modulo-curso-container img{
-    width: 70%;
+    width: 50%;
   }
 }
 

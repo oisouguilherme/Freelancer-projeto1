@@ -1,5 +1,5 @@
 import "./buttonWpp.css";
-import Whatsapp from "../../assets/whatsapp-button.svg";
+import Whatsapp from "../../assets/icons/whatsapp-button.svg";
 import { useEffect } from "react";
 import { useState } from "react";
 

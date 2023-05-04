@@ -1,4 +1,4 @@
-import Box from '../../../assets/box-seam.svg'
+import Box from '../../../assets/icons/box-seam.svg'
 import './boxUnic.css'
 
 function BoxUnic({text}){

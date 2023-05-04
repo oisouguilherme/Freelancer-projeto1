@@ -9,6 +9,7 @@ export function ModulosCurso(){
       <div className="modulo-title">
         <p>Conteúdo do Curso</p>
         <h2>O que você irá aprender?</h2>
+        <p className='p'>Você vai aprender tudo que precisa para vender mais todos os dias através do WhatsApp</p>
       </div>
 
       <div className="modulo-curso-container">

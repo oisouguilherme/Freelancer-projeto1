@@ -1,5 +1,5 @@
 import './CompreAqui.css'
-import Payment from '../../assets/payments.svg'
+import Payment from '../../assets/icons/payments.svg'
 import { Button } from './Button/Button'
 
 function CompreAqui(){

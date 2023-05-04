@@ -1,5 +1,5 @@
 import './SobrePoints.css'
-import Check2 from '../../../assets/check2-all.svg'
+import Check2 from '../../../assets/icons/check2-all.svg'
 function SobrePoints({textNeg,text}){
     return(
         <div className='button-component'>

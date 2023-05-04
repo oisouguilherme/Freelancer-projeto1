@@ -1,7 +1,7 @@
 import './SocialFooter.css'
 import LogoFooter from '../../../assets/logo.png'
-import Instagran from '../../../assets/instagram.svg'
-import YouTube from '../../../assets/youtube.svg'
+import Instagran from '../../../assets/icons/instagram.svg'
+import YouTube from '../../../assets/icons/youtube.svg'
 
 function SocialFooter(){
     return(

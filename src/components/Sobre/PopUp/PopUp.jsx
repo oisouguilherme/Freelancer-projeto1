@@ -1,14 +1,14 @@
 import './PopUP.css'
-import ArrowLeft from '../../../assets/arrow-up-left.svg'
-import Star from '../../../assets/stars.svg'
+import ArrowLeft from '../../../assets/icons/arrow-up-left.svg'
+import Star from '../../../assets/icons/stars.svg'
 function PopUp(){
     return(
         <div className='popUp'>
             <div className='img'>
                 <img src={ArrowLeft} alt="" />
             </div>
-            <h2>Não é um curso de vendas para redes sociais</h2>
-            <p>São técnicas e estratégias que funcionam em diversos canais e no WhatsApp</p>
+            <h2>Hoje você está completamente satisfeito com o uso do WhatsApp dentro da sua empresa?</h2>
+            <p>Se acha que não, esse curso é para você.</p>
             <img className='star' src={Star} alt="" />
         </div>
     )

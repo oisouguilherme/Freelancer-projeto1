@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Plus from "../../../assets/plus.svg";
+import Plus from "../../../assets/icons/plus.svg";
 import "./Pergunta.css";
 
 function Pergunta({ pergunta, resposta }) {
