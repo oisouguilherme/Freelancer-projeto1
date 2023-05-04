@@ -3,7 +3,7 @@ import './BoxCompra.css'
 
 export function BoxCompra() {
   return (
-    <div className="boxCompra-container">
+    <section id="boxCompra" className="boxCompra-container">
       <div className="box-compra">
         <p className="title-compra">
           E qual o <span>valor?</span>{" "}
@@ -25,6 +25,6 @@ export function BoxCompra() {
           <img src={pagamento} alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
