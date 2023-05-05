@@ -15,7 +15,6 @@ export function BoxCompra() {
         <p className="risk">R$ 297,00</p>
         <p>Por apenas:</p>
         <p className="preco">
-          
           R$ 97,00
         </p>
         <div className="comprar">
