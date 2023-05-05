@@ -1,9 +1,10 @@
 .sobreContain{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
     color: white;
+    padding: 80px 0px;
 }
 
 .sobre-curso{
@@ -26,14 +27,6 @@
 .img-curso img{
     width: 400px;
     border-radius: 8px;
-}
-
-
-@media (max-width: 1500px){
-    .sobreContain {
-        padding: 80px 0px 150px 70px;
-    }
-    
 }
 
 @media (max-width: 1350px){
