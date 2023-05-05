@@ -18,15 +18,15 @@ function App() {
     <div className="App">
       <BotaoFixo />
       <Header />
-      <BoxFunction />
       <Sobre />
-      <SobreCurso/>
+      <BoxCompra/>
+      <BoxFunction />
       <ParaQuem/>
       <ModulosCurso />
+      <SobreCurso/>
       <BoxCompra/>
       <Perguntas/>
       <Footer />
-      <ButtonWpp/>
     </div>
   )
 }

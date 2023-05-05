@@ -1,10 +1,8 @@
 .sobreContain{
-    padding: 80px 0px 80px 150px;
     width: 100%;
     display: flex;
-    gap: 50px;
-    align-items: center;
-    background-color: #141414;
+    justify-content: space-around;
+    background-color: black;
     color: white;
 }
 
@@ -15,33 +13,21 @@
 }
 
 .sobre-curso h2 {
-    font-size: 40px;
+    font-size: xxx-large;
     color:#00b142;
 }
 
 .sobre-curso p {
-    font-size: 20px;
+    font-size: x-large;
     margin-top:20px ;
 }
 
 
 .img-curso img{
-    width: 80%;
-    margin-top: 20px;
-    border-radius: 20px;
+    width: 400px;
+    border-radius: 8px;
 }
 
-.img-curso{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.img-curso p {
-    margin-left: 0px;
-    width: 80%;
-    font-size: 20px;
-    margin-top:20px ;
-}
 
 @media (max-width: 1500px){
     .sobreContain {
@@ -71,17 +57,26 @@
     }
     .sobre-curso{
         min-width: 90%;
+        text-align: center;
     }
     .img-curso img{
-        width: 80%;
-        border-radius: 10px;
-    }
-    .img-curso p {
-    margin-left: 0;
+        width: 50%;
     }
     .img-curso{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 500px){
+    .sobre-curso h2{
+        font-size: xx-large;
+    }
+    .sobre-curso p{
+        font-size: large;
+    }
+    .img-curso img{
+        width: 100%;
     }
 }

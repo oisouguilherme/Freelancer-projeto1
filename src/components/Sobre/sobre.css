@@ -9,10 +9,22 @@
 
 .sobre{
     padding: 100px 150px;
-    background-color: black;
-
+    background-color: #141414;
+    color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.sobre-title{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 24px;
+}
+
+.sobre-title p {
+    color: #00b142;
+    padding-top: 15px;
 }
 
 @media (max-width: 1500px){
@@ -24,10 +36,15 @@
 @media (max-width: 1000px){
     .sobre {
         flex-direction: column;
-        gap: 60px;
         padding: 60px 20px ;
     }
     .sobre-points{
         width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .sobre-title{
+        font-size: x-large;
     }
 }

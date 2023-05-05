@@ -1,16 +1,32 @@
-.box-container{
+.box-title{
     padding: 0px 200px;
     padding-bottom: 70px;
+    background-color: #141414;
+    text-align: center;
+}
+
+.box-title h2{
+    font-size: xxx-large;
+    color: white;
+    padding: 52px 0;
+}
+
+.box-container{
     display: flex;
     justify-content: center;
     gap: 80px;
     flex-wrap: wrap;
-    background-color: #141414;
 }
 
 @media (max-width: 1300px){
-    .box-container {
+    .box-title {
         padding: 0px 70px;
         padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 500px){
+    .box-title h2{
+        font-size: xx-large;
     }
 }
