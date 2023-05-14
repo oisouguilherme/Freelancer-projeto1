@@ -15,7 +15,8 @@ export function BoxCompra() {
         <p className="risk">R$ 297,00</p>
         <p>Por apenas:</p>
         <p className="preco">
-          R$ 97,00
+          <span>12x </span>
+          R$ 7,90
         </p>
         <div className="comprar">
           <a className="botao-compra" href="https://pay.kiwify.com.br/QFqPUJI" target="_blank">
