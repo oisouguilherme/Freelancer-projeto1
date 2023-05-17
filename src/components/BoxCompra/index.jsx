@@ -16,7 +16,7 @@ export function BoxCompra() {
         <p>Por apenas:</p>
         <p className="preco">
           <span>12x </span>
-          R$ 7,74
+          R$ 9,74
         </p>
         <p className="preco-sec">ou <span>R$ 97,00</span>  à vista.</p>
         <div className="comprar">
