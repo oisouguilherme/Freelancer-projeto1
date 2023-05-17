@@ -36,13 +36,19 @@
 .preco{
   font-size: 32px;
   color: #00b142;
-  padding-bottom: 25px;
 }
 .preco span{
   font-size: 24px;
   color: gray;
 }
-
+.preco-sec{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.preco-sec span{
+  font-weight: bold;
+}
 .botao-compra{
   background-color: #00b142 ;
   font-size: 24px;
